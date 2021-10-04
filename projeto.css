@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	background: #e6e6e6;
+	font-family: "trebuche ms", Helvetica, sans-serif;
+
+}
+/***********************************/
+/*cabecalho*/
+
+h1.cabecalho{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+#cabecalho{
+	border: 1px solid red;
+	background: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo, #menu{
+	padding: 10px;
+}
+
+a.cabecalho{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 5px;
+}
+
+a:link.cabecalho, a:visited.cabecalho{
+	color: #FFF;
+}
+
+a:hover.cabecalho{
+	color: #f7b600;
+	background: #FFF;
+}
+
+.color-white{
+	color: white;
+}
+/***********************************/
+/*principal*/
+
+#principal{
+	border: 1px solid red;
+	background: white;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#conteudo{
+	border: 1px solid red;
+	width: 65%;
+	margin: 0 auto;
+	float: left;
+	padding: 10px;
+}
+
+.imagem-postagem{
+	width: 80%;
+	margin: 5px 10px;
+	position: relative;
+	left: 40px;
+	z-index: 0;
+}
+
+#secundaria{
+	width: 30%;
+	float: right;
+}
+
+#conteudo, #secundaria{
+	background: white;
+}
+
+.lateral{
+	border: 1px solid red;
+	padding: 5px;
+	margin: 10px;
+}
+
+.titulo-lateral{
+	background: grey;
+	padding: 0px;
+}
+
+h1.titulo-lateral{
+	font-size: 1.5em;
+}
+
+#rodape{
+	border: 1px solid red;
+	background: yellow;
+	clear: both;
+}
+
+
+
