@@ -1,0 +1,1 @@
+design basico de uma pagina de noticias
